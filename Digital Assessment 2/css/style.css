@@ -1,0 +1,151 @@
+/* Section styles. */
+body{
+    text-align: center;
+    font-family: Verdana, Tahoma, sans-serif ;
+    background-color: #e0ffea;
+}
+
+footer{
+    color: #ffffff;
+    background-color: #10860b;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    text-align: center;
+    border-radius: 10px;
+}
+/*** End Section style ***/
+
+
+/****** Nav styles ****/
+nav{background-color: #10860b;
+    width: 100%;
+    border-radius: 9px;
+    margin-top: 10px;
+    
+}
+
+nav a{
+    text-decoration: none;
+    width: 200px;
+    padding: 15px 0px;
+    color: #ffffff;
+    font-weight: bold;
+    display: inline-block;
+
+}
+
+nav a:visited{
+    color: #daf0f7;
+}
+
+nav a:hover{
+    color:white;
+    background-color: #00c542;
+    border-radius: 9px;
+}
+
+/***** End nav styles ******/
+
+
+/**Styling for Header Image**/
+img{
+    width:60%
+}
+
+/**End Styling for Header Image**/
+
+/* Tag styles ********/
+
+h1{
+    font-size: 60px;
+    /*color: #ffffff;*/
+    color: rgb(28, 75, 10);
+    margin:0;
+    padding-top: 15px;
+    text-align: center;
+    background-color: rgb(124, 245, 90);
+}
+
+
+
+/*** Class styles ******/
+.aboutlogo{
+    width: 40%;
+    float: left;
+    margin-right: 15px;
+    padding-bottom: 50px;
+    padding-top: 50px;
+}
+
+.boxedwithback{
+    width:auto;
+    text-align:left;
+    padding-left: 120px;
+    padding-bottom: 30px;
+    border: #167187 2px solid;
+    margin-bottom: 10px;
+    padding-top: 20px;
+    background-color: #2cd526;
+    border-radius: 10px;
+}
+
+.smallerimage{
+    width: 40%;
+    float: right;
+    margin-top: 180px;
+    margin-left: 40px;
+    border-radius: 10px;
+}
+.aboutforest{
+    width: 40%;
+    border-radius: 10px;
+}
+/*** End Class styles ******/
+
+/*********Table Styles*********/
+
+dl{
+    text-align: left;
+    margin-bottom: 40px;
+    margin-left: 20%;
+}
+
+dt{
+    font-weight: bolder;
+}
+
+
+table, td {
+    border: 1px solid;
+    border-width: 2px;
+    text-align: left;
+    margin-left: 20%;
+  }
+
+  dd{
+    margin-bottom: 10px;
+  }
+
+  /*********End Table Styles*********/
+
+
+/****Treehouse boxes styles****/
+  .treeboxes{
+    width: 46%;
+    text-align: left;
+    border-radius: 10px;
+    border: black 2px solid;
+    padding-right: 0;
+    background-color: #2cd526;
+    box-sizing: border-box;
+    padding: 50px;
+    display: inline-block;
+    margin-bottom: 30px;
+  }
+
+  .treeboxes img {
+    width: 100%;
+    border-radius: 10px;
+}
+
+ /****End Treehouse boxes styles****/
